@@ -48,6 +48,7 @@ class Solution:
                                 return True
         return False
 
+
 if __name__ == '__main__':
     sol = Solution()
     assert sol.placeWordInCrossword([["#", " ", "#"], [" ", " ", "#"], ["#", "c", " "]], "abc")

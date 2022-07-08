@@ -32,10 +32,8 @@ class UnionFind:
             self.parent[qp] = pp
         else:
             self.parent[pp] = qp
-            if self.parent[pp] == self.parent[qp]:
-                self.rank[qp] += 1
-
-
+        if self.parent[pp] == self.parent[qp]:
+            self.rank[qp] += 1
 
 
 if __name__ == '__main__':
